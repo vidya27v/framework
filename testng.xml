@@ -1,0 +1,11 @@
+<suite name="Suite">
+  <test name="Test">
+   <parameter name="browser" value="chrome"/>
+   <parameter name="appURL" value="http://www.fb.com"/>
+   <parameter name="ITO" value="10"/>
+   <parameter name="ETO" value="9"/>
+    <packages>
+      <package name="script"/>
+    </packages>
+  </test>
+</suite>
