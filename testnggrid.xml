@@ -2,10 +2,10 @@
   <test name="Test">
    <parameter name="grid" value="yes"/>
    <parameter name="gridURL" value="http://192.168.1.107:4444"/>
-   <parameter name="browser" value="edge"/>
-   <parameter name="appURL" value="https://www.facebook.com/"/>
-   <parameter name="ITO" value="10"/>
-   <parameter name="ETO" value="9"/>
+   <parameter name="browser" value="chrome"/>
+   <parameter name="appURL" value="https://opensource-demo.orangehrmlive.com"/>
+   <parameter name="ITO" value="20"/>
+   <parameter name="ETO" value="10"/>
     <packages>
       <package name="script"/>
     </packages>

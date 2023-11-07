@@ -1,15 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Default test(failed)">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="ETO" value="10"/>
+    <parameter name="ITO" value="20"/>
+    <parameter name="grid" value="yes"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="gridURL" value="http://192.168.1.107:4444"/>
+    <parameter name="appURL" value="https://opensource-demo.orangehrmlive.com"/>
     <classes>
-      <class name="script.DemoTest1">
+      <class name="script.ValidLogin">
         <methods>
           <include name="postCondition"/>
-          <include name="testDemo"/>
           <include name="preCondition"/>
+          <include name="testValidLogin"/>
         </methods>
-      </class> <!-- script.DemoTest1 -->
+      </class> <!-- script.ValidLogin -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

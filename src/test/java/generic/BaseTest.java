@@ -36,7 +36,7 @@ public class BaseTest
 				@Optional("no") String grid,
 				@Optional("http://localhost:4444") String gridURL,					
 				@Optional("chrome") String browser,
-				@Optional("http://www.google.com") String appURL,
+				@Optional("https://opensource-demo.orangehrmlive.com") String appURL,
 				@Optional("7") String ITO,
 				@Optional("6") String ETO	
 			) throws MalformedURLException	
@@ -111,6 +111,6 @@ public class BaseTest
 		
 		
 		Reporter.log("Close the browser",true);
-		driver.quit();
+		//driver.quit();
 	}
 }
