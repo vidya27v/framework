@@ -111,6 +111,6 @@ public class BaseTest
 		
 		
 		Reporter.log("Close the browser",true);
-		//driver.quit();
+		driver.quit();
 	}
 }
