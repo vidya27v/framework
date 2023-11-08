@@ -1,7 +1,7 @@
 <suite name="Suite">
   <test name="Test">
    <parameter name="grid" value="yes"/>
-   <parameter name="gridURL" value="http://192.168.1.107:4444"/>
+   <parameter name="gridURL" value="https://oauth-vidyapavan27-fdce5:0c02e713-1071-47a2-b948-a167b3fdcedc@ondemand.eu-central-1.saucelabs.com:443/wd/hub"/>
    <parameter name="browser" value="chrome"/>
    <parameter name="appURL" value="https://opensource-demo.orangehrmlive.com"/>
    <parameter name="ITO" value="20"/>
